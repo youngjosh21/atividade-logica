@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Autor(a)    : Josh
+// Data atual  : 04/09/2023
+Var
+// Seção de Declarações das variáveis 
+nomeDoProduto: caracter
+quantidade: inteiro
+valor: real
+total
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva ("Digite o Nome do Produto: ")
+leia(nomeDoProduto)
+escreva ("Digite o Valor do Produto: ")
+leia(valor)
+escreval ("Digite a Quantidade do Produto: ")
+leia(quantidade)
+
+Escreva ("Valor com Desconto: " , valor - (valor * desconto / 100))
+
+se (quantidade <= 5)
+entao
+(desconto
