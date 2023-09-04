@@ -1,0 +1,37 @@
+Algoritmo 1
+// Autor(a)   : Josh
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis 
+valora:  inteiro
+valorb: inteiro
+valorc: inteiro
+soma: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...)
+
+
+
+escreva ("digite o Valor A:")
+leia (valora)
+
+escreva ("digite o Valor B:")
+leia (valorb)
+
+escreva ("digite o Valor C:")
+leia (valorc)
+
+soma <- valora+valorb
+limpatela
+escreval("valor de A:", valora)
+escreval ("Valor de B:" , valorb)
+escreval ("valor de C:" , valorc)
+escreval ("valor da soma de a e b:", soma)
+
+
+se (soma > valorc) entao
+escreval ("a e b, é maior que valor c")
+senao
+escreval ("a e b, é menor que valor c")
+  fimse
+
