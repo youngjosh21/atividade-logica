@@ -1,0 +1,36 @@
+Algoritimo2 
+
+se é casada ou solteira
+
+
+nome: caracter
+sexo: caracter
+estadocivil: caracter
+tempodematrimonio: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+sexo <- "feminino"
+estadocivil <- "casada"
+
+escreva ("Digite o seu nome:" )
+leia(nome)
+escreva ("Digite o seu sexo: ")
+leia (sexo)
+escreva ("digite estado civil:")
+leia(estadocivil)
+
+se (sexo = "feminino") e (estadocivil= "casada") entao
+escreval ("digite seu tempo de matrimonio")
+leia(tempodematrimonio)
+ fimse
+ limpatela
+ 
+ escreval ("nome: ",  nome)
+ escreval ("sexo: ",  sexo)
+ escreval ("estadocivil: " ,  estadocivil)
+se (sexo = "feminino") e (estadocivil= "casada") entao
+escreval ("tempo de matrimonio" , tempodematrimonio)
+fimse
+Fimalgoritmo
