@@ -1,0 +1,44 @@
+Algoritmo 5
+
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Autor(a)    : Josh
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis 
+operacoes:caracter
+valora: real
+valorb: real
+resultado: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...)
+
+
+escreva ("Digite a operação desejada (+,-,*,/)")
+leia(operacoes)
+escreva ("Digite O Valor de A:")
+leia(valora)
+escreva ("Digite O Valor de B:")
+leia (valorb)
+limpatela
+se (operacoes = "+")  entao
+resultado <- valora + valorb
+senao
+se (operacoes = "-") entao
+resultado <- valora - valorb
+senao
+se (operacoes = "*") entao
+resultado <- valora*valorb
+senao
+se (operacoes = "/") entao
+resultado <- valora/valorb
+
+fimse
+fimse
+fimse
+fimse
+
+
+escreval ("valor de A:"  , valora)
+escreval ("valor de B:"  , valorb)
+ escreval ("resultado" , resultado)
