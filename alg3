@@ -1,0 +1,25 @@
+Algoritmo 3
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Autor(a)    : Josh
+// Data atual  : 31/08/2023
+Var
+// Seção de Declarações das variáveis 
+valora:  inteiro
+valorb: inteiro
+valorc: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...)
+
+Escreva ("Digite o valor de A:")
+leia(valora)
+Escreva ("Digite o valor de B:")
+leia(valorb)
+
+se (valora = valorb) entao
+valorc <- valora + valorb
+senao
+valorc <- valora * valorb
+ fimse
+
+  escreval("valor de C:", valorc)
