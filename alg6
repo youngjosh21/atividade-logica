@@ -1,0 +1,40 @@
+Algoritmo "Aluno está aprovado"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Autor(a)    : Josh
+// Data atual  : 04/09/2023
+Var
+// Seção de Declarações das variáveis 
+nome: caracter
+idade: inteiro
+primeiraNota: real
+segundaNota: real
+media: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreva("Digite o nome do aluno:")
+leia(nome)
+
+
+escreva ("Digite a primeira nota:")
+leia(primeiraNota)
+
+escreva ("Digite a segunda nota:")
+leia(segundaNota)
+
+media <- (primeiraNota+segundaNota)/2
+limpatela
+
+escreval ("Aluno:  " , nome)
+escreval ("A primeira Nota é:  ", primeiraNota)
+escreval ("A segunda Nota é:  " , segundaNota)
+escreval ("Sua média é:  " , media)
+
+se (media > 6) entao
+escreval ("O aluno está aprovado!")
+senao
+escreval ("O aluno está reprovado!")
+fimse
+
+Fimalgoritmo
