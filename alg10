@@ -1,0 +1,75 @@
+Algoritmo "Cálculo de Valor a Pagar por Combustível QUESTÃO 10 "
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Autor(a)    : Joshua Cruz Ferreira Dos Santos
+// Data atual  : 05/09/2023
+Var
+// Seção de Declarações das variáveis 
+
+
+litros: real
+tipoCombustivel:caracter
+precoGasolina:real
+precoAlcool:real
+valorPagar:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+precoGasolina <- 6.59
+
+precoAlcool <- 3.79
+
+escreva("Digite o número de litros vendidos: ")
+leia (litros)
+
+escreva("Digite o tipo de combustível (A - álcool, G - gasolina): ")
+leia (tipoCombustivel)
+
+se (tipoCombustivel "A") ou (tipo Combustivel = "a") entao
+
+se litros <= 25 entao
+
+valorPagar <- litros (precoAlcool - precoAlcool 8.82)
+
+senao
+
+valor Pagar <- litros (precoAlcool precoAlcool 0.04)
+
+
+fimse
+
+senao
+
+se (tipoCombustivel "G") ou (tipoCombustivel "g") entao
+
+se litros <= 25 entao
+
+valor Pagar <- litros (precoGasolina precoGasolina 0.03)
+
+
+
+senao
+
+valor Pagar - litros (precoGasolina - precoGasolina 0.05)
+
+Fimse
+
+Senao
+
+escreva("Tipo de combustivel inválido.")
+
+
+Fimse
+
+
+
+Fimse
+
+
+
+escreva("valor a pagar RS", valor Pagar)
+
+
+
+Fimalgoritmo
